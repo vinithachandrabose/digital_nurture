@@ -1,0 +1,24 @@
+
+   74  pwd
+   75  git status
+   76  rm git_handson_1.txt
+   77  rm git_handson_2.txt
+   78  git status
+   79  git branch GitNewBranch
+   80  git branch -a
+   81  git checkout GitNewBranch
+   82  git branch
+   83  echo "This file was created in GitNewBranch" > branchfile.txt
+   84  cat branchfile.txt
+   85  git add branchfile.txt
+   86  git commit -m "Added branchfile in GitNewBranch"
+   87  git status
+   88  git checkout master
+   89  git diff master GitNewBranch
+   90  git merge GitNewBranch
+   91  git log --oneline --graph --decorate
+   92  git branch -d GitNewBranch
+   93  git branch
+   94  git status
+   95  git push origin master
+   96  history > git_handson_3.txt

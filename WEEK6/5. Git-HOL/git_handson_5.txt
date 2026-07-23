@@ -1,0 +1,7 @@
+pwd
+git status
+rm git_handson_4.txt
+git branch -a
+git pull origin master
+git push origin master
+history > git_handson_5.txt

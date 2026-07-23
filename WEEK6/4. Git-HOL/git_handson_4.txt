@@ -1,0 +1,33 @@
+ 
+git status
+git checkout -b GitWork
+echo "<message>Hello from GitWork</message>" > hello.xml
+cat hello.xml
+git status
+git add hello.xml
+git commit -m "Added hello.xml in GitWork"
+git checkout master
+echo "<master>Hello from Master</message> > hello.xml
+echo "<master>Hello from Master</message>" > hello.xml
+cat hello.xml
+git add hello.xml
+git commit -m "Added hello.xml in master"
+git log --oneline --graph --decorate --all
+git diff master GitWork
+git merge GitWork
+cat hello.xml
+notepad hello.xml
+cat hello.xml
+git add hello.xml
+git status
+git commit -m "Resolved merge conflict in hello.xml"
+echo "backup data" > hello.xml.bak
+git status
+notepad .gitignore
+git add .gitignore
+git commit -m "Updated gitignore for backup files"
+git branch -a
+git branch -d GitWork
+git log --oneline --graph --decorate
+git push origin master
+history > git_handson_4.txt

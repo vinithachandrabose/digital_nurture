@@ -1,0 +1,30 @@
+   
+   23  pwd
+   24  git init
+   25  git commit -m 
+   26  git commit -m "x file creted"
+   27  git clone thamini
+   28  git log
+   29  git status
+   30  git --version
+   31  git config --global user.name "Elaya-thamini-J"
+   32  git config --global user.email "jelayathamini17@gmail.com"
+   33  git config --list
+   34  cd Desktop
+   35  mkdir GitDemo
+   36  cd GitDemo
+   37  git init
+   38  ls -la
+   39  echo "Welcome to Git" > welcome.txt
+   40  ls
+   41  cat welcome.txt
+   42  git status
+   43  git add welcome.txt
+   44  git status
+   45  git commit -m "Added welcome.txt"
+   46  git remote add origin "https://github.com/J-Elaya-thamini/GitDemo.git
+   47  git remote add origin "https://github.com/J-Elaya-thamini/GitDemo.git"
+   48  git remote -v
+   49  git pull origin master
+   50  git push -u origin master
+   51  history > git_handson_1.txt

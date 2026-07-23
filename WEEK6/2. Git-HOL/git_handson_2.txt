@@ -1,0 +1,20 @@
+
+   54  cd ~/Desktop/GitDemo
+   55  pwd
+   56  git status
+   57  echo "This is a log file" > error.log
+   58  ls
+   59  mkdir log
+   60  echo "Application log" > log/app.log
+   61  ls log
+   62  git status
+   63  touch .gitignore
+   64  notepad .gitignore
+   65  git status
+   66  git add .gitignore
+   67  git status
+   68  git commit -m "Added .gitignore"
+   69  git push origin master
+   70  git status
+   71  notepad git_handson_2.txt
+   72  history > git_handson_2.txt
